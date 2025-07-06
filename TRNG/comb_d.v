@@ -4,7 +4,7 @@ module comb_d(
     input rst,
     input load,
     output [31:0] shift_reg 
-    );
+);
    
     wire [31:0] out_;
     ro ro1(en,out_[0]);
