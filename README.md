@@ -18,7 +18,7 @@ This project implements a **hardware-based True Random Number Generator (TRNG)**
 5. Output chosen via MUX: raw or corrected.
    
 > **Important Note:**  
-> While this code is fully **synthesizable**, it cannot be used to generate meaningful entropy during **simulation** in tools like **Xilinx Vivado** or **ModelSim**.  
+> While this code is fully **synthesizable**, it cannot be used to generate **simulation** in tools like **Xilinx Vivado**.  
 > This is because:
 >
 > - Ring oscillators do not actually oscillate in simulation.
